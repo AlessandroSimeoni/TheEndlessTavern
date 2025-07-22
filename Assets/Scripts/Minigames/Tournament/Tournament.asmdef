@@ -1,0 +1,24 @@
+{
+    "name": "Tournament",
+    "rootNamespace": "Tournament",
+    "references": [
+        "GUID:3a63c0b9e0b94f24e9d700a5ae4514a5",
+        "GUID:37c2d582821f07f42b4a8cc805b351d9",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:1da0c1e620aa9744a85f4d24270e7a22",
+        "GUID:8c0fa7c6a740cbb499c1ab6075198916"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

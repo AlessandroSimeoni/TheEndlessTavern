@@ -1,0 +1,20 @@
+{
+    "name": "SceneLoad",
+    "rootNamespace": "SceneLoad",
+    "references": [
+        "GUID:8c0fa7c6a740cbb499c1ab6075198916"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

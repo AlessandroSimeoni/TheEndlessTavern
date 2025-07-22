@@ -1,0 +1,23 @@
+{
+    "name": "BeerNBooze",
+    "rootNamespace": "BeerNBooze",
+    "references": [
+        "GUID:37c2d582821f07f42b4a8cc805b351d9",
+        "GUID:9a781454a5139e64995c86ae23b03648",
+        "GUID:3a63c0b9e0b94f24e9d700a5ae4514a5",
+        "GUID:8c0fa7c6a740cbb499c1ab6075198916"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

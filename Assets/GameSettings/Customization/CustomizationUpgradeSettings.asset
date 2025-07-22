@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0036280ef33dfc445bb59378a183fdfd, type: 3}
+  m_Name: CustomizationUpgradeSettings
+  m_EditorClassIdentifier: 
+  armorUpgradeInfo:
+  - ID: 0
+    materialUpgradeInfo:
+    - material: 0
+      price: 0
+      armorPiecesQuantity: 0
+    - material: 1
+      price: 1000
+      armorPiecesQuantity: 20
+    - material: 2
+      price: 2000
+      armorPiecesQuantity: 60
+    - material: 3
+      price: 50
+      armorPiecesQuantity: 120
+  - ID: 1
+    materialUpgradeInfo:
+    - material: 0
+      price: 0
+      armorPiecesQuantity: 1
+    - material: 1
+      price: 1000
+      armorPiecesQuantity: 20
+    - material: 2
+      price: 2000
+      armorPiecesQuantity: 60
+    - material: 3
+      price: 50
+      armorPiecesQuantity: 120
+  - ID: 2
+    materialUpgradeInfo:
+    - material: 0
+      price: 0
+      armorPiecesQuantity: 1
+    - material: 1
+      price: 1000
+      armorPiecesQuantity: 20
+    - material: 2
+      price: 2000
+      armorPiecesQuantity: 75
+    - material: 3
+      price: 50
+      armorPiecesQuantity: 150

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b012233a9e781e4a88ca730bf9ce784, type: 3}
+  m_Name: FullUpFeastSettings
+  m_EditorClassIdentifier: 
+  hp: 3
+  roundTapsRange:
+  - min: 1
+    max: 3
+    rangeMin: 1
+    rangeMax: 20
+  - min: 1
+    max: 4
+    rangeMin: 1
+    rangeMax: 20
+  - min: 1
+    max: 6
+    rangeMin: 1
+    rangeMax: 20
+  roundLock: 20
+  plateEscapeSettings:
+  - escapeSpeedTag: 0
+    escapeValue: 1.4
+  - escapeSpeedTag: 1
+    escapeValue: 1.2
+  - escapeSpeedTag: 2
+    escapeValue: 1
+  thresholdRoundFirstSpeed: 9
+  changeSpeedRoundRate: 3
+  maxWaitingTime: 0.25
+  useAlternativeEscapeSpeedVariation: 1
+  startingEscapeSpeed: 1.4
+  decreaseEscapeSpeedValue: 0.1
+  alternativeEscapeSpeedRoundRate: 5
+  startingPlatesPerRound: 3
+  thresholdRoundCount: 9
+  changePlatesPerRoundRate: 6
+  scorePerFoodPiece: 40
+  maxFury: 5
+  furyForEachLeftover: 1
+  scoreToCoinConversionRate: 100

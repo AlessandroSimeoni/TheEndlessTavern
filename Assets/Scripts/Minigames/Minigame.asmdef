@@ -1,0 +1,21 @@
+{
+    "name": "Minigame",
+    "rootNamespace": "Minigame",
+    "references": [
+        "GUID:3a63c0b9e0b94f24e9d700a5ae4514a5",
+        "GUID:8c0fa7c6a740cbb499c1ab6075198916"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

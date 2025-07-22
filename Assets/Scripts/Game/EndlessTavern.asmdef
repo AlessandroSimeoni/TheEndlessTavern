@@ -1,0 +1,25 @@
+{
+    "name": "EndlessTavern",
+    "rootNamespace": "EndlessTavern",
+    "references": [
+        "GUID:37c2d582821f07f42b4a8cc805b351d9",
+        "GUID:f053b68c045615e4db86dfd742af9394",
+        "GUID:2269ff408b02f844e97dbdb0bd0cc768",
+        "GUID:1da0c1e620aa9744a85f4d24270e7a22",
+        "GUID:b7fbc7e8cb72d0a44a49e7a11c863d49",
+        "GUID:8c0fa7c6a740cbb499c1ab6075198916"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

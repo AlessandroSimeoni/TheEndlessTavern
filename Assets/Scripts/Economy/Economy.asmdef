@@ -1,0 +1,25 @@
+{
+    "name": "Economy",
+    "rootNamespace": "Economy",
+    "references": [
+        "GUID:3a63c0b9e0b94f24e9d700a5ae4514a5",
+        "GUID:1da0c1e620aa9744a85f4d24270e7a22",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:5695364c11a3b5a48bb0d17aebeff4ad",
+        "GUID:68be28fb1379ca44588ca6b87901edd1",
+        "GUID:8c0fa7c6a740cbb499c1ab6075198916"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

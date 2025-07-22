@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 754c8abdd319cad49b29800f148eeb00, type: 3}
+  m_Name: TournamentSettings
+  m_EditorClassIdentifier: 
+  tournamentFlow: 010000000200000003000000
+  player:
+    name: You
+    profilePicture: {fileID: 21300000, guid: c3fee4c75a4b5df4799c7f2a5a0e5021, type: 3}
+    score: 6000
+    linkedinURL: 
+  opponents:
+  - name: Alessandro Simeoni
+    profilePicture: {fileID: 21300000, guid: c33de3904200edf40b0464ca4b847b75, type: 3}
+    score: 99999
+    linkedinURL: https://www.linkedin.com/in/alessandro-simeoni-bb8390210
+  - name: Camillo              Bria
+    profilePicture: {fileID: 21300000, guid: f6d8eff450c0ba647bea3993515a1e9d, type: 3}
+    score: 40000
+    linkedinURL: https://www.linkedin.com/in/camillo-bria-58156b133
+  - name: Marina            Araldi
+    profilePicture: {fileID: 21300000, guid: 8a19f8c46a96af047b3cb360af7f6da9, type: 3}
+    score: 20000
+    linkedinURL: https://www.linkedin.com/in/marina-araldi-346897203
+  - name: Daniele Sattin
+    profilePicture: {fileID: 21300000, guid: 2342c9c5621ea494187bbba14459919f, type: 3}
+    score: 35000
+    linkedinURL: https://www.linkedin.com/in/daniele-sattin-31a417310
+  - name: Emanuele Londero
+    profilePicture: {fileID: 21300000, guid: 2342c9c5621ea494187bbba14459919f, type: 3}
+    score: 30000
+    linkedinURL: https://it.linkedin.com/in/emanuele-londero-8a1b56247
+  - name: Andrea Chiappara
+    profilePicture: {fileID: 21300000, guid: 2342c9c5621ea494187bbba14459919f, type: 3}
+    score: 35001
+    linkedinURL: https://www.linkedin.com/in/andrea-chiappara-3942b5113
+  - name: Lorenzo Bollani
+    profilePicture: {fileID: 21300000, guid: 2342c9c5621ea494187bbba14459919f, type: 3}
+    score: 500
+    linkedinURL: https://www.linkedin.com/in/lorenzo-bollani-30a344311
+  - name: Michele Arrigo
+    profilePicture: {fileID: 21300000, guid: 9706fe19e0c8b6646b9019a0fcd086e3, type: 3}
+    score: 33350
+    linkedinURL: https://www.linkedin.com/in/michele-arrigo-032512278
+  - name: Gabriele Stella
+    profilePicture: {fileID: 21300000, guid: 8f8e279cde6be134ab4271540a3621cb, type: 3}
+    score: 17000
+    linkedinURL: https://www.linkedin.com/in/gabriele-stella-b478b02a1
+  - name: Gabriele Mangiapan
+    profilePicture: {fileID: 21300000, guid: fe1bea006ea16044cb6a3856a248c239, type: 3}
+    score: 27500
+    linkedinURL: 
+  - name: Alex              Kunzle
+    profilePicture: {fileID: 21300000, guid: bf641e011894290469b992dc1c258138, type: 3}
+    score: 23000
+    linkedinURL: https://www.linkedin.com/in/alexkunzle000/
+  - name: Alessandra Catino
+    profilePicture: {fileID: 21300000, guid: bf641e011894290469b992dc1c258138, type: 3}
+    score: 1000
+    linkedinURL: 

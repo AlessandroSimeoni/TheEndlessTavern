@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad733a71f4adf834f94f42969266cb92, type: 3}
+  m_Name: AudioSettings
+  m_EditorClassIdentifier: 
+  masterAudioMixerGroup: {fileID: 24300002, guid: ab1e839ed472ba344bf0acb915032d8b,
+    type: 2}
+  bgmAudioMixerGroup: {fileID: 3443828618748878972, guid: ab1e839ed472ba344bf0acb915032d8b,
+    type: 2}
+  sfxAudioMixerGroup: {fileID: 5812388777373738599, guid: ab1e839ed472ba344bf0acb915032d8b,
+    type: 2}
+  settingsFadeTime: 1
+  settingsFadeEnabled: 1
+  bgmFadeTime: 1.5
+  bgmStartFadeEnabled: 0
+  bgmEndFadeEnabled: 1

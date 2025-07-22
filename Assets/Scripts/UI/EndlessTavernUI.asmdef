@@ -1,0 +1,22 @@
+{
+    "name": "EndlessTavernUI",
+    "rootNamespace": "EndlessTavernUI",
+    "references": [
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:8c0fa7c6a740cbb499c1ab6075198916",
+        "GUID:1da0c1e620aa9744a85f4d24270e7a22"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

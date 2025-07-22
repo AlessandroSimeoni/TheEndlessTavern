@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 599c61e96e92e4c4aa96f983bf35b66b, type: 3}
+  m_Name: CustomizationSettings
+  m_EditorClassIdentifier: 
+  armorSet:
+  - ID: 0
+    armorRenderer: {fileID: 7253824291842836601, guid: cf2fc8dc95972a74d9c210bb174f13f2,
+      type: 3}
+    material:
+    - {fileID: 2100000, guid: 7caa5c3ba44d9644183c4f1afb7a990f, type: 2}
+    - {fileID: 2100000, guid: 321767db91575a842bce650bd920eab1, type: 2}
+    - {fileID: 2100000, guid: 3ec1c9340d7716445a1e7ea13d349962, type: 2}
+    - {fileID: 2100000, guid: 5af6b30cf43bf0e418d3e9a2398104cb, type: 2}
+    sweater: {fileID: 2580897792896093470, guid: ffbf073d1b3a0b344bdf934606fa5b5f,
+      type: 3}
+    hands: {fileID: -8650382722358700010, guid: ffbf073d1b3a0b344bdf934606fa5b5f,
+      type: 3}
+    pants: {fileID: -467030539421379300, guid: ffbf073d1b3a0b344bdf934606fa5b5f, type: 3}
+    boots: {fileID: 5970453887602332238, guid: ffbf073d1b3a0b344bdf934606fa5b5f, type: 3}
+  - ID: 1
+    armorRenderer: {fileID: -787234286918155014, guid: 911f24655fb37424486c538623750e7d,
+      type: 3}
+    material:
+    - {fileID: 2100000, guid: 1dae74602c94b8540b7c381330ccf03d, type: 2}
+    - {fileID: 2100000, guid: 7c62204ec00ffa34bb16c4a15000319f, type: 2}
+    - {fileID: 2100000, guid: eb5fbe5e0c0b2914881ae2b51055be02, type: 2}
+    - {fileID: 2100000, guid: d9cbba2598f706540bbca4f961dcb381, type: 2}
+    sweater: {fileID: 2580897792896093470, guid: f6d3b43907becca41ae30debc07a5255,
+      type: 3}
+    hands: {fileID: -8650382722358700010, guid: f6d3b43907becca41ae30debc07a5255,
+      type: 3}
+    pants: {fileID: -467030539421379300, guid: f6d3b43907becca41ae30debc07a5255, type: 3}
+    boots: {fileID: -3266464822700518996, guid: f6d3b43907becca41ae30debc07a5255,
+      type: 3}
+  - ID: 2
+    armorRenderer: {fileID: 7450224702187032880, guid: 777bc9e0490c2e64c90d81ddc210952f,
+      type: 3}
+    material:
+    - {fileID: 2100000, guid: d1da5865507b6594c9f0e82dac270c4a, type: 2}
+    - {fileID: 2100000, guid: 6482c486058a74c478a9f3cc6a432cf6, type: 2}
+    - {fileID: 2100000, guid: ee62f9b5115fd994a90ed6f3796a66a2, type: 2}
+    - {fileID: 2100000, guid: 28bf19dfb3cbaa34f8805776be9cb58d, type: 2}
+    sweater: {fileID: 2580897792896093470, guid: d660ce8bde2b1f44bbe67d03ff76b5cc,
+      type: 3}
+    hands: {fileID: -8650382722358700010, guid: d660ce8bde2b1f44bbe67d03ff76b5cc,
+      type: 3}
+    pants: {fileID: -467030539421379300, guid: d660ce8bde2b1f44bbe67d03ff76b5cc, type: 3}
+    boots: {fileID: -3266464822700518996, guid: d660ce8bde2b1f44bbe67d03ff76b5cc,
+      type: 3}

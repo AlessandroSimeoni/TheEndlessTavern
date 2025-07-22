@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3271e9757899fec41bfb84f57fbf5bba, type: 3}
+  m_Name: SpinWheelSettings
+  m_EditorClassIdentifier: 
+  armorQuantityRange:
+    min: 1
+    max: 3
+    rangeMin: 1
+    rangeMax: 100
+  spinAnimationTrigger:
+  - Spin0
+  - Spin1
+  - Spin2
+  - Spin3
+  - Spin4
+  - Spin5
+  - Spin6
+  - Spin7
+  - Spin8
+  - Spin9
+  coinRewardSprite: {fileID: 21300000, guid: 3eea34110d87be14d902e69693bb2dbd, type: 3}
+  ticketRewardSprite: {fileID: 21300000, guid: ebb768649fcc79b4891a4a4c6bd9b3a3, type: 3}
+  gemRewardSprite: {fileID: 21300000, guid: f4398c6f61def854bb7d356768641dee, type: 3}
+  armorRewardSprite:
+  - ID: 0
+    sprite: {fileID: 21300000, guid: be3b4d4ae1f95b9429e18356a5de4938, type: 3}
+  - ID: 1
+    sprite: {fileID: 21300000, guid: 1e71d5647ff2a644890b3e951589266b, type: 3}
+  - ID: 2
+    sprite: {fileID: 21300000, guid: ff5f5b14698a61741a83daf205665503, type: 3}

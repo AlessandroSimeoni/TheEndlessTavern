@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56dc9784f042edd4aae25f85e6d9100b, type: 3}
+  m_Name: PlayerSettings
+  m_EditorClassIdentifier: 
+  health: 3
+  startingDodgeCooldownTime: 0.1
+  dodgeCooldownTimeRoundRate: 3
+  dodgeCooldownTimeDelta: 0
+  startingDodgeTime: 0.25
+  dodgeTimeRoundRate: 3
+  dodgeTimeDelta: 0.025
+  startingAttackTime: 0.2
+  attackTimeRoundRate: 3
+  attackTimeDelta: 0.015
+  startingReturnToIdleTime: 0.65
+  returnToIdleTimeRoundRate: 3
+  returnToIdleTimeDelta: 0.115

@@ -1,0 +1,21 @@
+{
+    "name": "Audio",
+    "rootNamespace": "Audio",
+    "references": [
+        "GUID:1da0c1e620aa9744a85f4d24270e7a22"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "WindowsStandalone32",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

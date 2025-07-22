@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 189f79f070d42364298a487d2821c60d, type: 3}
+  m_Name: FoodPositionSettings
+  m_EditorClassIdentifier: 
+  foodPosition:
+  - numberOfFoodOnPlate: 1
+    position:
+    - {x: 0, y: 0.03, z: 0}
+  - numberOfFoodOnPlate: 2
+    position:
+    - {x: 0.15, y: 0.03, z: 0}
+    - {x: -0.15, y: 0.03, z: 0}
+  - numberOfFoodOnPlate: 3
+    position:
+    - {x: 0.12, y: 0.03, z: 0.1}
+    - {x: -0.12, y: 0.03, z: 0.05}
+    - {x: 0.025, y: 0.03, z: -0.14}
+  xAxisRotation:
+    min: -20
+    max: 20
+    rangeMin: -90
+    rangeMax: 90
+  yAxisRotation:
+    min: -180
+    max: 180
+    rangeMin: -180
+    rangeMax: 180
+  zAxisRotation:
+    min: -20
+    max: 20
+    rangeMin: -90
+    rangeMax: 90

@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 397eb50420a486b46a222bbb5282645f, type: 3}
+  m_Name: ModifiersSettings
+  m_EditorClassIdentifier: 
+  minigameModifier:
+  - minigame: 1
+    modifier:
+    - id: 1
+      bonusSprite: {fileID: 21300000, guid: bdc36ff6adc075c42a688e6bef389bb2, type: 3}
+      bonusName: Cheers
+      bonusDescription: 25% chance of instantly drinking a beer
+      bonusEvent:
+      - chancePercentage: 25
+        bonusValue: 0
+    - id: 2
+      bonusSprite: {fileID: 21300000, guid: 4b9875b8fef4b864c8d5546052c8736f, type: 3}
+      bonusName: Beers Dodge
+      bonusDescription: 35% chance of ignoring beer spilled on oneself
+      bonusEvent:
+      - chancePercentage: 35
+        bonusValue: 0
+  - minigame: 2
+    modifier:
+    - id: 3
+      bonusSprite: {fileID: 21300000, guid: 245e07c472907be4eaf2b5fa669f7cac, type: 3}
+      bonusName: Double Damage
+      bonusDescription: 30% chance of double damage
+      bonusEvent:
+      - chancePercentage: 30
+        bonusValue: 0
+    - id: 4
+      bonusSprite: {fileID: 21300000, guid: 552990f220699044f87aebe3876e3078, type: 3}
+      bonusName: One Punch Knight
+      bonusDescription: 20% chance of oneshotting enemies
+      bonusEvent:
+      - chancePercentage: 20
+        bonusValue: 0
+  - minigame: 3
+    modifier:
+    - id: 5
+      bonusSprite: {fileID: 21300000, guid: 246a6fca95d8836418805b4bce641884, type: 3}
+      bonusName: More Time
+      bonusDescription: "20% chance to add 2 seconds to the dish\u2019s permanence"
+      bonusEvent:
+      - chancePercentage: 20
+        bonusValue: 2
+    - id: 6
+      bonusSprite: {fileID: 21300000, guid: c75987b0396740e41b6d9e667cd19187, type: 3}
+      bonusName: Chef's Pity
+      bonusDescription: "25% chance of not increasing the Chef\u2019s Fury &\n20%
+        chance of ignore overtapping"
+      bonusEvent:
+      - chancePercentage: 25
+        bonusValue: 0
+      - chancePercentage: 20
+        bonusValue: 0
