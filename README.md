@@ -17,7 +17,7 @@ They have organized their own independent tournament of eating, drinking and fig
 ### Customization
 Customize your knight with different ARMORS! Open the CHESTS and spin the WHEEL to find them! Find multiple armors of the same type to unlock new, shiny, MATERIALS!
 
-### Tournament Mode 
+### Tournament 
 Earn coins and join the underground tournament organized by the knights and climb the LEADERBOARD until you reach first place!
 
 ### Modifiers
@@ -36,7 +36,7 @@ As a solo programmer I made all the logics of the various features present in th
 * [Tournament mode](#Tournament-Mode)
 * [Player customization](#Player-customization)
 * [Shop](#Shop)
-* [Scene loading]()
+* [Scene loading](SceneLoading)
 
 
 <a name="Minigames"></a>
