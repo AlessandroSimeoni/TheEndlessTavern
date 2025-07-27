@@ -36,7 +36,7 @@ As a solo programmer I made all the logics of the various features present in th
 * [Tournament mode](#Tournament-Mode)
 * [Player customization](#Player-customization)
 * [Shop](#Shop)
-* [Scene loading](SceneLoading)
+* [Scene loading](Scene-Loading)
 
 
 <a name="Minigames"></a>
@@ -330,7 +330,7 @@ You can see the scripts [here](https://github.com/AlessandroSimeoni/TheEndlessTa
 
 **[⬆ Back to Top](#What-I-did)**
 
-<a name="SceneLoading"></a>
+<a name="Scene-Loading"></a>
 ## 5. Scene Loading
 To make the transition from one scene to another as smoother as possible, there is a dedicated logic.  
 The logic is pretty simple: when passing from scene A to scene B, it uses an empty scene C (the scene contains only UI) as a transition.  
