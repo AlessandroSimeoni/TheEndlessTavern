@@ -36,6 +36,7 @@ As a solo programmer I made all the logics of the various features present in th
 * [Tournament mode](#Tournament-Mode)
 * [Player customization](#Player-customization)
 * [Shop](#Shop)
+* [Scene loading]()
 
 
 <a name="Minigames"></a>
@@ -284,6 +285,11 @@ You can see the scripts [here](https://github.com/AlessandroSimeoni/TheEndlessTa
 
 <a name="Tournament-Mode"></a>
 ## 2. Tournament mode
+The tournament consists of playing all the three minigames in sequence with 1 HP for each one of them.  
+The score made in each minigame is added to the final score of the tournament. Once the last minigame is finished the total score is put on an offline leaderboard the player can see in the menu.  
+The score is saved along with other informations like records, settings and the armor equipped.  
+
+You can see the scripts [here](https://github.com/AlessandroSimeoni/TheEndlessTavern/tree/main/Assets/Scripts/Minigames/Tournament).  
 
 **[⬆ Back to Top](#What-I-did)**
 
@@ -300,7 +306,10 @@ You can see the scripts [here](https://github.com/AlessandroSimeoni/TheEndlessTa
 
 **[⬆ Back to Top](#What-I-did)**
 
+<a name="SceneLoading"></a>
+## 5. Scene Loading
 
+**[⬆ Back to Top](#What-I-did)**
 
 
 
