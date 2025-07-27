@@ -296,18 +296,99 @@ You can see the scripts [here](https://github.com/AlessandroSimeoni/TheEndlessTa
 
 <a name="Player-customization"></a>
 ## 3. Player customization
+The player can be customized by changing his armor.  
+By default, all the armors are locked; to unlock one armor the player must find all the required pieces in the shop's lootboxes.  
+When developing this feature, I encountered a problem where the meshes would stretch badly, to fix this I created this function that returns the correct array of bones to pass at the skinnedMeshRenderer:  
+```
+        /// <summary>
+        /// Gets an array of bones from the available ones (in the scene) that matches the target skinned mesh renderer bones array.
+        /// In this way, assigning the resulting array to the skinned mesh renderer of the player in the scene avoids the meshes to stretch badly
+        /// </summary>
+        /// <param name="targetSkinnedRenderer">the target skinned mesh renderer</param>
+        /// <returns>the correct array of bones to pass at the skinnedMeshRenderer</returns>
+        private Transform[] GetTargetBones(SkinnedMeshRenderer targetSkinnedRenderer)
+        {
+            Transform[] targetBones = new Transform[targetSkinnedRenderer.bones.Length];
+            for (int i = 0; i < targetBones.Length; i++)
+                targetBones[i] = myBone[targetSkinnedRenderer.bones[i].name];
+
+            return targetBones;
+        }
+```
+
+You can see the scripts [here](https://github.com/AlessandroSimeoni/TheEndlessTavern/tree/main/Assets/Scripts/Customization).  
 
 **[⬆ Back to Top](#What-I-did)**
 
-
-
 <a name="Shop"></a>
 ## 4. Shop
+The game had to include monetization as a constraint of the project, so there is a shop.  
+Each in-game currency is saved in the save file; player can buy in-game currency by paying (obviously this is all simulated in game) with real currency.  
+In-game currency can be used to buy lootboxes where you can find gold, armor pieces or tickets to use in the spin wheel.  
+
+You can see the scripts [here](https://github.com/AlessandroSimeoni/TheEndlessTavern/tree/main/Assets/Scripts/Economy).  
 
 **[⬆ Back to Top](#What-I-did)**
 
 <a name="SceneLoading"></a>
 ## 5. Scene Loading
+To make the transition from one scene to another as smoother as possible, there is a dedicated logic.  
+The logic is pretty simple: when passing from scene A to scene B, it uses an empty scene C (the scene contains only UI) as a transition.  
+The flow is as follow:
+* Loads scene C and plays UI animation to cover scene A
+* Unloads scene A
+* Loads scene B
+* Whene scene B is ready plays the UI animation of scene C to uncover scene B
+* Unloads scene C
+
+This is all done by using coroutines, for example the logic to switch scenes is this:
+```
+        private IEnumerator SwitchScenes()
+        {
+            // to play the transition sfx avoiding double audio listeners in scene:
+            // - disable the main camera audio listener
+            // - enable the audio listener of the camera in the transition scene
+            Camera.main.GetComponent<AudioListener>().enabled = false;
+            transitionManager.audioListener.enabled = true;
+
+            // unload previous scene
+            AsyncOperation unload = SceneManager.UnloadSceneAsync(unloadScene);
+            while (unload.progress < 1.0f)
+                yield return null;
+
+            /*
+            //garbage collector
+            GC.Collect();
+            yield return null;
+             */
+
+            // load target scene
+            AsyncOperation load = SceneManager.LoadSceneAsync(targetSceneName, LoadSceneMode.Additive);
+            load.allowSceneActivation = false;
+            while (load.progress < 0.9f)
+                yield return null;
+            load.allowSceneActivation = true;
+
+            // wait for the target scene to load
+            Scene targetScene = SceneManager.GetSceneByName(targetSceneName);
+            while (!targetScene.isLoaded)
+                yield return null;
+
+            // switch audio listener
+            transitionManager.audioListener.enabled = false;
+            Camera.main.GetComponent<AudioListener>().enabled = true;
+
+            // set the target scene as the active one
+            SceneManager.SetActiveScene(targetScene);
+            OnTargetSceneReady?.Invoke();       // scene is ready here --> minigames can be initialized
+
+            // ending transition animation
+            transitionManager.OnTransitionOver += HandleTransitionOver;
+            transitionManager.EndingTransition();
+        }
+```
+
+You can see the scripts [here](https://github.com/AlessandroSimeoni/TheEndlessTavern/tree/main/Assets/Scripts/SceneLoad).  
 
 **[⬆ Back to Top](#What-I-did)**
 
