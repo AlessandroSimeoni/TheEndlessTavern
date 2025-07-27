@@ -26,6 +26,6 @@ Buy modifiers to use in the single game for help breaking your RECORDS!
 ### ***Watch the trailer [here](https://www.youtube.com/watch?v=OatFO_30prg).***
 ### ***Watch the gameplay [here](https://www.youtube.com/watch?v=rEZIL9tU2Ew).***
 ### ***Visit the itch.io page [here](https://digital-bros-game-academy.itch.io/endless-tavern).***
-### ***Download the apk [here](https://github.com/AlessandroSimeoni/UntilEyeLeave/releases/tag/ReleaseBuild).***
+### ***Download the apk [here](https://github.com/AlessandroSimeoni/TheEndlessTavern/releases/tag/TheEndlessTavern_Release).***
 
 ## What I did
