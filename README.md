@@ -1,4 +1,6 @@
 # The Endless Tavern
+![The Endless Tavern Promo Art](https://github.com/AlessandroSimeoni/TheEndlessTavern/blob/main/Feature_Graphic.png)  
+
 Drink, eat and fight! Customize your knight to be the coolest in the tavern!  
 
 The annual tournament called by the king is upon us. Knights from all over the kingdom gather in the capital to compete. Their challenges will be etched in legend!  
@@ -20,5 +22,10 @@ Earn coins and join the underground tournament organized by the knights and clim
 
 ### Modifiers
 Buy modifiers to use in the single game for help breaking your RECORDS!  
+
+### ***Watch the trailer [here](https://www.youtube.com/watch?v=OatFO_30prg).***
+### ***Watch the gameplay [here](https://www.youtube.com/watch?v=rEZIL9tU2Ew).***
+### ***Visit the itch.io page [here](https://digital-bros-game-academy.itch.io/endless-tavern).***
+### ***Download the apk [here](https://github.com/AlessandroSimeoni/UntilEyeLeave/releases/tag/ReleaseBuild).***
 
 ## What I did
