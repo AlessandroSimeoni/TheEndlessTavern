@@ -36,7 +36,7 @@ As a solo programmer I made all the logics of the various features present in th
 * [Tournament mode](#Tournament-Mode)
 * [Player customization](#Player-customization)
 * [Shop](#Shop)
-* [Scene loading](Scene-Loading)
+* [Scene loading](#Scene-Loading)
 
 
 <a name="Minigames"></a>
